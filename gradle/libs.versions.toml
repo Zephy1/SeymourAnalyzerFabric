@@ -1,0 +1,4 @@
+[versions]
+kotlin = "2.0.21"
+fabricloader="0.18.4"
+fabrickotlin="1.12.3+kotlin.2.0.21"

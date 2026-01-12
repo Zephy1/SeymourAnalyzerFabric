@@ -1,35 +1,35 @@
 {
 	"schemaVersion": 1,
 	"id": "seymouranalyzer",
-	"version": "${version}",
 	"name": "Seymour Analyzer",
+	"version": "${version}",
 	"description": "Advanced color analysis and collection tool for Seymour Armour in Hypixel Skyblock",
 	"authors": [
 		"Schnerry"
 	],
+	"icon": "assets/seymouranalyzer/icon.png",
+	"license": "GPL-3.0-or-later",
 	"contact": {
 		"homepage": "https://github.com/Schnerry/SeymourAnalyzerFabric",
 		"sources": "https://github.com/Schnerry/SeymourAnalyzerFabric"
 	},
-	"license": "GPL-3.0-or-later",
-	"icon": "assets/seymouranalyzer/icon.png",
 	"environment": "client",
 	"entrypoints": {
 		"main": [
 			"schnerry.seymouranalyzer.Seymouranalyzer"
 		],
 		"client": [
-			"schnerry.seymouranalyzer.SeymouranalyzerClient"
+			"schnerry.seymouranalyzer.SeymourAnalyzerClient"
 		]
 	},
 	"mixins": [
 		"seymouranalyzer.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.18.4",
-		"minecraft": "~1.21.8",
 		"java": ">=21",
+		"fabricloader": ">=0.18.4",
 		"fabric-api": "*",
+		"fabric-language-kotlin": ">=$fabric_kotlin_version",
 		"cloth-config": ">=19.0.0"
 	}
 }
