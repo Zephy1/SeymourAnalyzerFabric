@@ -1,11 +1,11 @@
 {
 	"required": true,
-	"package": "schnerry.seymouranalyzer.mixin",
+	"package": "schnerry.seymouranalyzer.mixins",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
 	],
 	"client": [
-		"HandledScreenMixin"
+		"schnerry.seymouranalyzer.mixins.HandledScreenMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
